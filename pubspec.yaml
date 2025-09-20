@@ -1,0 +1,26 @@
+name: radio_m5
+description: A professional radio streaming app for Radio M5 93.5 FM
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.34
+  audio_service: ^0.18.0
+  just_audio_background: ^0.0.5
+  share_plus: ^6.3.0
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
